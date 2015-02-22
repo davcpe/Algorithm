@@ -12,14 +12,23 @@ package sampleone;
  */
 public abstract class Algo {
     
+     Algo(){
+         System.err.println("Davit Sanpote");
+     }
     
-    
-   
     public abstract void forloop();
     
     public abstract void While();
     
     public abstract void Array();
     
+    public abstract void Array2D(int x , int y);
+    
+    public abstract int Check (int x);
+    
+    
+   
+    
+     
     
 }
